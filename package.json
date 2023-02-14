@@ -1,0 +1,41 @@
+{
+  "name": "hexo-toc-dllcn",
+  "version": "1.1.2",
+  "description": "hexo-toc的修改版，防止和next的侧边栏导航冲突，删除了部分配置",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js",
+    "pretest": "npm run lint",
+    "test": "echo ",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeiferJu/hexo-toc-dllcn"
+  },
+  "keywords": [
+    "hexo",
+    "toc",
+    "filter",
+    "markdown"
+  ],
+  "author": {
+    "name": "KeiferJu",
+    "email": "jkf19980216@163.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "hhttps://github.com/KeiferJu/hexo-toc-dllcn/issues"
+  },
+  "homepage": "myllcn.com",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "markdown-toc": "^0.12.12",
+    "object-assign": "^4.0.1",
+    "transliteration": "^1.1.7",
+    "uslug": "^1.0.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  }
+}
