@@ -1,5 +1,5 @@
 {
-  "name": "hexo-toc-dllcn",
+  "name": "hexo-toc",
   "version": "1.1.2",
   "description": "hexo-toc的修改版，防止和next的侧边栏导航冲突，删除了部分配置",
   "main": "index.js",
