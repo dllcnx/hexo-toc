@@ -1,5 +1,5 @@
 {
-  "name": "hexo-toc",
+  "name": "@dllcnx/hexo-toc",
   "version": "1.1.3",
   "description": "hexo-toc的修改版，防止和next的侧边栏导航冲突，删除了部分配置",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KeiferJu/hexo-toc-dllcn"
+    "url": "https://github.com/dllcnx/hexo-toc"
   },
   "keywords": [
     "hexo",
